@@ -1,15 +1,12 @@
 
 import java.util.Scanner;
 
-public class Addition {
+public class Addition{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter first number: ");
-        int a = sc.nextInt();
-
-        System.out.print("Enter second number: ");
-        int b = sc.nextInt();
+       int a = 5;
+        int b =5;
 
         int sum = a + b;
 
